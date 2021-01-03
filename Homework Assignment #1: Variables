@@ -8,5 +8,9 @@ Genre <- c("Jaaz" , "Rock" , "Salsa" , "Jaaz" , "Rock" , "Hindutsani" , "Folk")
 Duration <-c(800,465,750,684,254,964,785)
 #Create Lanuage
 Lanuage <- c("English" , "Hindi" , "Spanish", "French", "Hindi" , "Hindi" , "English")
+##To view the data frames we have 2 options
+#Option1
+##sONG<-data.frame(Col1=Artist, Col2=Year_Released, Col3=Genre,Col4=Duration,Col5=Lanuage)
+#Option2
 sONG<-data.frame(Artist,Year_Released,Genre,Duration,Lanuage)
 View(sONG)
