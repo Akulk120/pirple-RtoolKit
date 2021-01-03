@@ -1,0 +1,12 @@
+#Create the list Artist
+Artist <- c("James",  "Khalil", "Somit","Raja", "Tanuj", "Sahil","Bakera")
+#Create the list of Year Released
+Year_Released <- c(2009,1998,1676,1998,2004,2008,2010)
+#Create the Genre
+Genre <- c("Jaaz" , "Rock" , "Salsa" , "Jaaz" , "Rock" , "Hindutsani" , "Folk")
+#Create Duration in Sec
+Duration <-c(800,465,750,684,254,964,785)
+#Create Lanuage
+Lanuage <- c("English" , "Hindi" , "Spanish", "French", "Hindi" , "Hindi" , "English")
+sONG<-data.frame(Artist,Year_Released,Genre,Duration,Lanuage)
+View(sONG)
